@@ -1,0 +1,146 @@
+*{margin:0px; padding:0px}
+/**--Awal index--**/
+
+/* body{
+	font-family:sans-serif;
+	font-size:13px; */
+	/* color:#4D4D4D; */
+/* } */
+/* #container{
+	width:100%; */
+	/* margin:0px auto; */
+	/* background-color:#A0B9A3;
+} */
+#header{
+	/* width:100%;
+	height:100px; */
+	background-color:#2C3639;
+}
+#logo{
+	float:left;
+	width:6%;
+	height:80%;
+	padding:8px;
+    align-items: center;
+}
+#logo-motor{
+	width:90px;
+	display: block;
+    margin: 0 auto;
+}
+.judul{
+	/* float:left;
+	width:90%;*/
+	/* padding:10px; 
+    text-align:center; */
+    margin: 0;
+}
+
+/* .nama-company{
+	float:left;
+	width:100%;
+	padding:6px;
+	text-align:center;
+} */
+.header2{
+	/* width:100%; */
+	height:36px;
+	background-color:#FFFFFF;
+	color:#1A4D2E;
+    border-bottom: 1px solid #1A4D2E;
+}
+/* .col{
+    
+} */
+.hov {
+    display: block;
+    padding: 0.5rem 2rem;
+    color: #1A4D2E; /* Warna teks default */
+    text-align: center;
+}
+
+.hov:hover {
+    background-color: hsl(144, 50%, 20%); /* Mengubah warna latar belakang saat dihover */
+    color: #FFFFFF; /* Mengubah warna teks saat dihover */
+    text-decoration: none;
+}
+
+#nama-user{
+	float:left;
+	color:#EEEEEE;
+	padding:6px;
+}
+#sidebar{
+	float:left;
+	width:15.8%;
+    height: 100%; /* 100% dari tinggi viewport */
+    overflow-y: auto;
+    background-color: #A0B9A3;
+}
+#sidebar ul{
+	list-style:none;
+}
+#sidebar a:link, #sidebar a:visited{
+	color:black;
+	display:block;
+	padding:6px;
+    text-decoration:none;
+}
+#sidebar a{
+    margin-left: 10px;
+}
+
+#sidebar li:hover{
+	background-color:#EEEEEE;
+    color:black;
+}
+.label-navigasi{
+	background-color:#1A4D2E;
+	padding:6px;
+	color:white;
+	font-weight:bold;
+}
+#content-container{
+	float:left;
+	width:83.8%;
+	background-color:#FFFFFF;
+}
+#bawah{
+	width:99.4%;
+	height:20px;
+	clear:both;
+	text-align:center;
+	padding:4px;
+	background-color:#1A4D2E;
+	color:#FFFFFF;
+}
+/**--Akhir index.php--**/
+
+
+.polaroid {
+margin: 30px;
+width: 300px;
+height: 350px;
+background-color: white;
+padding: 1rem;
+box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+}
+.polaroid__content-image {
+height: 270px;
+width: 100%;
+overflow: hidden;
+}
+.polaroid__content-image > img {
+height: 100%;
+width: 100%;
+display: block;
+object-fit: cover;
+}
+.polaroid__content-caption {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 25px;
+}
+
+/**--Akhir pages--**/
